@@ -1,4 +1,4 @@
-import React, {useState, useEffect }from "react";
+import React, { useEffect }from "react";
 import "./App.css";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Home from "./components/Home";
@@ -35,7 +35,7 @@ function App() {
         });
       }
     });
-  }, []);
+  }, [dispatch]);
 
 
 
